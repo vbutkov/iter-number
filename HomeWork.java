@@ -3,19 +3,6 @@ import java.util.*;
 public class HomeWork {
     public static void main(String[] args) {
 
-//        reverseString(new char[]{'h', 'e', 'l', 'l', 'o'});
-//        reverseString2(new char[]{'h', 'e', 'l', 'l', 'o'});
-
-        String s = "[[{(())}]]";
-        //s = "()[]{}";
-        //s = "([)]";
-        //s = "))";
-
-        System.out.println(s + ":" + isValid2(s));
-
-
-        System.exit(0);
-
         Scanner input = new Scanner(System.in);
         System.out.println("Введите крайнюю границу для вывода чисел: ");
         var toNumber = input.nextInt();
@@ -43,7 +30,6 @@ public class HomeWork {
         }
     }
 
-    //  reverseString3(new char[]{'h', 'e', 'l', 'l', 'o'});
     public static void reverseString2(char[] s) {
         System.out.println(s);
         for (int i = 0; i < s.length / 2; i++) {
